@@ -164,46 +164,102 @@ $(document).ready(function (){
         });
       });
 
-
-      $( "h3" ).mouseenter(function(){
-        $( "h3" ).css( "opacity", "1" );
+      $('#constellation1').click(function(){
+        $('#star-one').show();
+        $('.overlay-black').show();
+      });
+      $('#constellation2').click(function(){
+        $('#star-three').show();
+        $('.overlay-black').show();
+      });
+      $('#constellation3').click(function(){
+        $('#star-two').show();
+        $('.overlay-black').show();
+      });
+      $('#constellation4').click(function(){
+        $('#star-two').show();
+        $('.overlay-black').show();
+      });
+      $('#constellation5').click(function(){
+        $('#star-three').show();
+        $('.overlay-black').show();
+      });
+      $('#constellation6').click(function(){
+        $('#star-two').show();
+        $('.overlay-black').show();
+      });
+      $('#constellation7').click(function(){
+        $('#star-one').show();
+        $('.overlay-black').show();
+      });
+      $('#constellation8').click(function(){
+        $('#star-one').show();
+        $('.overlay-black').show();
+      });
+      $('#constellation9').click(function(){
+        $('#star-three').show();
+        $('.overlay-black').show();
+      });
+      $('#constellation10').click(function(){
+        $('#star-two').show();
+        $('.overlay-black').show();
+      });
+      $('#constellation11').click(function(){
+        $('#star-one').show();
+        $('.overlay-black').show();
       });
 
-      $(function () {
-        $("h3").click(function () {
-          $('.infoOverlay').show();
-        });
+      $('#star-one').click(function(){
+        $('#star-one').hide();
+        $('.overlay-black').hide();
       });
-      
-
-      $( ".star_txt" ).mouseenter(function(){
-        $( ".star_png" ).css( "display", "block" );
+      $('#star-two').click(function(){
+        $('#star-two').hide();
+        $('.overlay-black').hide();
       });
-
-      $( ".jar_txt" ).mouseenter(function(){
-        $( ".jar" ).css( "display", "block" );
+      $('#star-three').click(function(){
+        $('#star-three').hide();
+        $('.overlay-black').hide();
       });
 
-      $( ".eye_txt" ).mouseenter(function(){
-        $( ".eye" ).css( "display", "block" );
-      });
 
-      $( ".gift_txt" ).mouseenter(function(){
-        $( ".gift" ).css( "display", "block" );
-      });
 
-      $( ".star_txt" ).mouseleave(function(){
-        $( ".star_png" ).css( "display", "none" );
-      });
+      // $( ".constellation2 img" ).mouseenter(function(){
+      //   $( ".star-one" ).css( "display", "block" );
+      // });
 
-      $( ".jar_txt" ).mouseleave(function(){
-        $( ".jar" ).css( "display", "none" );
-      });
+      // $(document).ready(function(){
+      //   $("#constellation1").on("click", function (event) {
+      //     $( ".star-one" ).css( "display", "block" );
+      //   });
+      // });
 
-      $( ".eye_txt" ).mouseleave(function(){
-        $( ".eye" ).css( "display", "none",);
-      });
 
-      $( ".gift_txt" ).mouseleave(function(){
-        $( ".gift" ).css( "display", "none" );
-      });
+      //
+      // $( ".jar_txt" ).mouseenter(function(){
+      //   $( ".jar" ).css( "display", "block" );
+      // });
+      //
+      // $( ".eye_txt" ).mouseenter(function(){
+      //   $( ".eye" ).css( "display", "block" );
+      // });
+      //
+      // $( ".gift_txt" ).mouseenter(function(){
+      //   $( ".gift" ).css( "display", "block" );
+      // });
+      //
+      // $( ".star_txt" ).mouseleave(function(){
+      //   $( ".star_png" ).css( "display", "none" );
+      // });
+      //
+      // $( ".jar_txt" ).mouseleave(function(){
+      //   $( ".jar" ).css( "display", "none" );
+      // });
+      //
+      // $( ".eye_txt" ).mouseleave(function(){
+      //   $( ".eye" ).css( "display", "none",);
+      // });
+      //
+      // $( ".gift_txt" ).mouseleave(function(){
+      //   $( ".gift" ).css( "display", "none" );
+      // });
