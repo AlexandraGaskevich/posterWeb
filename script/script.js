@@ -153,8 +153,6 @@ $(document).ready(function (){
       });
 
 
-
-
       $(document).ready(function(){
         $("#head").on("click","a", function (event) {
           event.preventDefault();
@@ -167,46 +165,90 @@ $(document).ready(function (){
       $('#constellation1').click(function(){
         $('#star-one').show();
         $('.overlay-black').show();
+        function move(){
+          document.location.href = "http://www.vk.com";
+        }
+        setTimeout(move, 3000);
       });
       $('#constellation2').click(function(){
         $('#star-three').show();
         $('.overlay-black').show();
+        function move(){
+          document.location.href = "http://www.vk.com";
+        }
+        setTimeout(move, 3000);
       });
       $('#constellation3').click(function(){
         $('#star-two').show();
         $('.overlay-black').show();
+        function move(){
+          document.location.href = "http://www.vk.com";
+        }
+        setTimeout(move, 3000);
       });
       $('#constellation4').click(function(){
         $('#star-two').show();
         $('.overlay-black').show();
+        function move(){
+          document.location.href = "http://www.vk.com";
+        }
+        setTimeout(move, 3000);
       });
       $('#constellation5').click(function(){
         $('#star-three').show();
         $('.overlay-black').show();
+        function move(){
+          document.location.href = "http://www.vk.com";
+        }
+        setTimeout(move, 3000);
       });
       $('#constellation6').click(function(){
-        $('#star-two').show();
+        $('#star-three').show();
         $('.overlay-black').show();
+        function move(){
+          document.location.href = "http://www.vk.com";
+        }
+        setTimeout(move, 3000);
       });
       $('#constellation7').click(function(){
         $('#star-one').show();
         $('.overlay-black').show();
+        function move(){
+          document.location.href = "http://www.vk.com";
+        }
+        setTimeout(move, 3000);
       });
       $('#constellation8').click(function(){
         $('#star-one').show();
         $('.overlay-black').show();
+        function move(){
+          document.location.href = "http://www.vk.com";
+        }
+        setTimeout(move, 3000);
       });
       $('#constellation9').click(function(){
         $('#star-three').show();
         $('.overlay-black').show();
+        function move(){
+          document.location.href = "http://www.vk.com";
+        }
+        setTimeout(move, 3000);
       });
       $('#constellation10').click(function(){
         $('#star-two').show();
         $('.overlay-black').show();
+        function move(){
+          document.location.href = "http://www.vk.com";
+        }
+        setTimeout(move, 3000);
       });
       $('#constellation11').click(function(){
         $('#star-one').show();
         $('.overlay-black').show();
+        function move(){
+          document.location.href = "http://www.vk.com";
+        }
+        setTimeout(move, 3000);
       });
 
       $('#star-one').click(function(){
