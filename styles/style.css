@@ -375,6 +375,33 @@ h2 {
   display: none;
 }
 
+/* #jar-one {
+  position: absolute;
+  z-index: 13;
+  margin: 28vw;
+  margin-top: 18vh;
+  display: none;
+}
+#jar-two {
+  width: 40vw;
+  height: auto;
+  position: absolute;
+  z-index: 13;
+  margin: 30vw;
+  margin-top: 14vh;
+  display: none;
+}
+
+#jar-three {
+  width: 40vw;
+  height: auto;
+  position: absolute;
+  z-index: 13;
+  margin: 30vw;
+  margin-top: 14vh;
+  display: none;
+} */
+
 
 #particles-js {
   position: fixed;
