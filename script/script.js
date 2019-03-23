@@ -163,105 +163,92 @@ $(document).ready(function (){
       });
 
       $('#constellation1').click(function(){
-        $('#star-one').show();
+        $('#star-one').show(1000);
         $('.overlay-black').show();
         function move(){
-          document.location.href = "http://www.vk.com";
+          document.location.href = "page-one.html";
         }
-        setTimeout(move, 3000);
+        setTimeout(move, 2000);
       });
       $('#constellation2').click(function(){
-        $('#star-three').show();
+        $('#star-three').show(1000);
         $('.overlay-black').show();
         function move(){
-          document.location.href = "http://www.vk.com";
+          document.location.href = "page-three.html";
         }
-        setTimeout(move, 3000);
+        setTimeout(move, 2000);
       });
       $('#constellation3').click(function(){
-        $('#star-two').show();
+        $('#star-two').show(1000);
         $('.overlay-black').show();
         function move(){
-          document.location.href = "http://www.vk.com";
+          document.location.href = "page-two.html";
         }
-        setTimeout(move, 3000);
+        setTimeout(move, 2000);
       });
       $('#constellation4').click(function(){
-        $('#star-two').show();
+        $('#star-two').show(1000);
         $('.overlay-black').show();
         function move(){
-          document.location.href = "http://www.vk.com";
+          document.location.href = "page-two.html";
         }
-        setTimeout(move, 3000);
+        setTimeout(move, 2000);
       });
       $('#constellation5').click(function(){
-        $('#star-three').show();
+        $('#star-three').show(1000);
         $('.overlay-black').show();
         function move(){
-          document.location.href = "http://www.vk.com";
+          document.location.href = "page-three.html";
         }
-        setTimeout(move, 3000);
+        setTimeout(move, 2000);
       });
       $('#constellation6').click(function(){
-        $('#star-three').show();
+        $('#star-three').show(1000);
         $('.overlay-black').show();
         function move(){
-          document.location.href = "http://www.vk.com";
+          document.location.href = "page-three.html";
         }
-        setTimeout(move, 3000);
+        setTimeout(move, 2000);
       });
       $('#constellation7').click(function(){
-        $('#star-one').show();
+        $('#star-one').show(1000);
         $('.overlay-black').show();
         function move(){
-          document.location.href = "http://www.vk.com";
+          document.location.href = "page-one.html";
         }
-        setTimeout(move, 3000);
+        setTimeout(move, 2000);
       });
       $('#constellation8').click(function(){
-        $('#star-one').show();
+        $('#star-one').show(1000);
         $('.overlay-black').show();
         function move(){
-          document.location.href = "http://www.vk.com";
+          document.location.href = "page-one.html";
         }
-        setTimeout(move, 3000);
+        setTimeout(move, 2000);
       });
       $('#constellation9').click(function(){
-        $('#star-three').show();
+        $('#star-three').show(1000);
         $('.overlay-black').show();
         function move(){
-          document.location.href = "http://www.vk.com";
+          document.location.href = "page-three.html";
         }
-        setTimeout(move, 3000);
+        setTimeout(move, 2000);
       });
       $('#constellation10').click(function(){
-        $('#star-two').show();
+        $('#star-two').show(1000);
         $('.overlay-black').show();
         function move(){
-          document.location.href = "http://www.vk.com";
+          document.location.href = "page-two.html";
         }
-        setTimeout(move, 3000);
+        setTimeout(move, 2000);
       });
       $('#constellation11').click(function(){
-        $('#star-one').show();
+        $('#star-one').show(1000);
         $('.overlay-black').show();
         function move(){
-          document.location.href = "http://www.vk.com";
+          document.location.href = "page-one.html";
         }
-        setTimeout(move, 3000);
-      });
-
-      $('#star-one').click(function(){
-        $('#star-one').hide();
-        $('.overlay-black').hide();
-      });
-      $('#star-two').click(function(){
-        $('#star-two').hide();
-        $('.overlay-black').hide();
-      });
-      $('#star-three').click(function(){
-        $('#star-three').hide();
-        $('.overlay-black').hide();
+        setTimeout(move, 2000);
       });
 
 
